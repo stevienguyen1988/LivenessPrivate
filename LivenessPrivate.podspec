@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "11.0"
 
   spec.source            = { :http => 'https://github.com/stevienguyen1988/LivenessPrivate/releases/download/1.0.0/LivenessCloud.zip' }
-  spec.vendored_frameworks = 'IDCardReader/IDCardReader.xcframework'
+  spec.vendored_frameworks = 'LivenessCloud/LivenessCloud.xcframework'
 
 
   spec.swift_version = "5.0"
